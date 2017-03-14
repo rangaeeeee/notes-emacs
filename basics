@@ -1,0 +1,600 @@
+-*- mode: org -*-
+Using Emacs in Text Terminal
+
+Start Emacs
+-----------
+# start emacs in text terminal
+emacs --no-window-system
+
+# or
+emacs -nw
+
+# open a file with emacs
+emacs myFileName
+
+#save file
+C-x C-s
+
+#Quit
+C-x C-c
+
+Emacs Keys Basics
+-----------------
+
+Open, Save, Close
+
+| Command Name | Description        | Key Binding |
+|--------------+--------------------+-------------|
+| find-file    | open a new file    | c-x c-f     |
+| save-buffer  | save file          | c-x c-s     |
+| kill-buffer  | close current file | c-x k       |
+
+
+moving cursor
+
+| Command Name         | Description               | Key Binding   |
+|----------------------+---------------------------+---------------|
+| backward-word        | move cursor left by word  | c-<-          |
+| forwward-word        | move cursor right by word | c-->          |
+| beginnning-of-buffer | beginning of file         | c-home or m-< |
+| end-of-buffer        | end of document           | c-end or m->  |
+
+
+deleting text  
+
+| Command Name       | Description                                    | Key Binding |
+|--------------------+------------------------------------------------+-------------|
+| kill-word          | delete the word to the right                   | m-d         |
+| backward-kill-word | delete the previous word                       | m-backspace |
+| kill-line          | delete all the char from cursor to end of line | c-k         | 
+
+
+select text  
+
+| Command Name      | Description                                 | Key Binding |
+|-------------------+---------------------------------------------+-------------|
+| set-mark-command  | mark the starting point for copy/cut a text | c-space     |
+| mark-whole-buffer | select all                                  | c-x h       |
+
+
+copy,paste, undo
+
+| Command Name   | Description | Key Binding |
+|----------------+-------------+-------------|
+| undo           | undo        | c-/         |
+| kill-ring-save | copy        | m-w         |
+| kill-region    | cut         | c-w         |
+| yank           | paste       | c-y         |
+
+
+split window
+
+| Command Name         | Description                 | Key Binding |
+|----------------------+-----------------------------+-------------|
+| split-window-below   | split the window top/bottom | c-x 2       |
+| split-window-right   | split window side by side   | c-x 3       |
+| delete-other-windows | remove all split panes      | c-x 1       |
+| other-window         | move cursor to other panes  | c-x o       |
+  
+
+everything is command
+
+| Command Name             | Description                    | Key Binding |
+|--------------------------+--------------------------------+-------------|
+| execute-extended-command | execute a command by name      | m-x         |
+| keyboard-quit            | cancel a command in progress   | c-g         |
+| describe-key             | find the command name of a key | c-h k       |
+| describe-function        | find the key of a command      | c-h f       | 
+
+
+  
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+| Command Name | Description | Key Binding |
+|--------------+-------------+-------------|
+|              |             |             |
+
+
+   
+
+
+
